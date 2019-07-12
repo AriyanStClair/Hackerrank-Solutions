@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin>>a>>b;
+    string number [] = {"one", "two", "three", "four", "five", "six", "seven", "eight",     "nine"};
+
+    for(int i = a; i<(b +1); i++){
+        if (i > 9){
+            if(i % 2 == 0){
+                cout<<"even \n";
+            }
+            else{
+                cout<<"odd \n";
+            }
+        }
+        else{
+            cout<<number[i - 1]<<'\n';
+        }
+
+    }
+    return 0;
+}
+
