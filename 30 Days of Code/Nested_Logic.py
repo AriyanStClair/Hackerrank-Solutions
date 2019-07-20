@@ -11,6 +11,7 @@
 # fine = 500 x the number of months late
 
 #If the book is returned after the calendar year in which it was expected, there is a fixed fine of 10000.
+# The format of the input is D M Y
 
 # reading user input
 return_date = input().split()
